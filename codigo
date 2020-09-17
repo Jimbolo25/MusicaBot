@@ -1,3 +1,11 @@
+const ytdl = require("discord-ytdl-core");
+const search = require('youtube-search');
+const YouTube = require('youtube-node');
+let youTube = new YouTube();   /////esto va arriva del todo :D
+
+
+
+
 const queue = new Map();
 
 
